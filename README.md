@@ -27,5 +27,15 @@ df %>% ggplot(aes(gdp_pc, expectancy))+
 geom_point()+
 geom_smooth()
 
+# 3d plot?
+
+# normalisiert
+
+
+df %>% ggplot(aes(smoking/gdp_pc, expectancy))+
+geom_point()+
+geom_smooth()
+
+
 
 
